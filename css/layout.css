@@ -1,0 +1,54 @@
+/* -- Contenedor principal, títulos y grid.  Mobile first: 3 columnas por defecto. -- */
+
+main {
+  max-width: var(--container-max);
+  margin-inline: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: var(--space-sm);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: var(--space-lg);
+}
+
+/* -- Grid mobile first: 3 columnas -- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+}
+
+/* -- Colors: siempre ancho completo -- */
+.colors {
+  grid-column: 1 / -1;
+}
+
+/* -- Green: ancho completo en mobile -- */
+.green {
+  grid-column: 1 / -1;
+}
+
+/* -- Tablet: 4 columnas -- */
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* -- Desktop: 6 columnas -- */
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  /* Green ocupa 3 de 6 columnas en desktop */
+  .green {
+    grid-column: span 3;
+  }
+}
