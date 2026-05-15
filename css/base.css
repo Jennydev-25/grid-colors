@@ -1,0 +1,20 @@
+/* -- Reset + estilos globales. -- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  min-height: 100vh;
+  padding: var(--space-2xl) var(--space-xl);
+}
