@@ -2,7 +2,8 @@
 
 :root {
   /* -- Tipografía -- */
-  --font-family: 'Bitcount Single Casual', monospace;
+  --font-family: 'Bitcount Single', monospace;
+  --font-family-titles: 'Arial', sans-serif;
 
   /* -- Espaciado -- */
   --space-sm:   0.5rem;

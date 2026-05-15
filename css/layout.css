@@ -6,12 +6,14 @@ main {
 }
 
 h1 {
+  font-family: var(--font-family-titles);
   font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: var(--space-sm);
 }
 
 h2 {
+  font-family: var(--font-family-titles);
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: var(--space-lg);
