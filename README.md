@@ -44,7 +44,7 @@ Antes de escribir código analicé los tres diseños para identificar qué eleme
 Estructura de archivos decidida antes de programar:
 
 -   **`index.html`** — marcado semántico
--   **`styles/`** — CSS dividido por responsabilidad:
+-   **`css/`** — CSS dividido por responsabilidad:
     -   `styles.css` → punto de entrada, solo `@import`
     -   `variables.css` → colores, fuentes y espaciado
     -   `base.css` → reset y estilos globales

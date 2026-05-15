@@ -1,0 +1,37 @@
+/* -- Variables CSS centralizadas -- */
+
+:root {
+  /* -- Tipografía -- */
+  --font-family: 'Bitcount Single Casual', monospace;
+
+  /* -- Espaciado -- */
+  --space-sm:   0.5rem;
+  --space-md:   1rem;
+  --space-lg:   1.5rem;
+  --space-xl:   2rem;
+  --space-2xl:  3rem;
+
+  /* -- Layout -- */
+  --container-max:  1200px;
+  --radius-cell:    8px;
+
+  /* -- Colores de celda -- */
+  --color-bg:         #f0f0f0;
+  --color-black:      black;
+  --color-teal:       teal;
+  --color-blue:       blue;
+  --color-navy:       navy;
+  --color-lime:       lime;
+  --color-white:      white;
+  --color-purple:     purple;
+  --color-yellow:     yellow;
+  --color-olive:      olive;
+  --color-red:        red;
+  --color-maroon:     maroon;
+  --color-gray:       gray;
+  --color-olivedrab:  olivedrab;
+  --color-deepskyblue: deepskyblue;
+  --color-fuchsia:    fuchsia;
+  --color-green:      green;
+  --color-colors:     black;
+}
