@@ -1,0 +1,28 @@
+/* -- Estilo base compartido por todas las celdas -- */
+.cell {
+  padding: var(--space-lg) var(--space-md);
+  border-radius: var(--radius-cell);
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  color: white;
+}
+
+/* -- Color de fondo individual -- */
+.colors      { background-color: var(--color-colors); }
+.black       { background-color: var(--color-black); }
+.teal        { background-color: var(--color-teal); }
+.blue        { background-color: var(--color-blue); }
+.navy        { background-color: var(--color-navy); }
+.lime        { background-color: var(--color-lime); }
+.white       { background-color: var(--color-white); color: black; }
+.purple      { background-color: var(--color-purple); }
+.yellow      { background-color: var(--color-yellow); }
+.olive       { background-color: var(--color-olive); }
+.red         { background-color: var(--color-red); }
+.maroon      { background-color: var(--color-maroon); }
+.gray        { background-color: var(--color-gray); }
+.olivedrab   { background-color: var(--color-olivedrab); }
+.deepskyblue { background-color: var(--color-deepskyblue); }
+.fuchsia     { background-color: var(--color-fuchsia); }
+.green       { background-color: var(--color-green); }
