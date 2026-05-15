@@ -73,7 +73,8 @@ Diseño de referencia proporcionado por el bootcamp.
 -   `docs`: rename original README to README-original.md
 -   `docs`: add README
 -   `feat`: add project folder structure
--   `feat`: add semantic HTML markup
+-   `feat`: add HTML base structure
+-   `feat`: add HTML content and classes
 -   `style`: add CSS variables and Google Fonts (Bitcount Single)
 -   `style`: add base styles and reset
 -   `style`: add grid layout mobile-first (3 columns)
