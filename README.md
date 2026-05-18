@@ -22,8 +22,8 @@ Antes de escribir código analicé los tres diseños para identificar qué eleme
 
 -   Un `<h1>` con el título "Colores de fondo"
 -   Un `<h2>` con el subtítulo "Colores"
--   Una `<section>` que contiene todo el grid
--   Dentro del grid, 16 celdas — cada una es un `<div>` con el nombre del color:
+-   Una `<ul>` que contiene todo el grid
+-   cada una es un `<li>` con el nombre del color:
     -   `Colors` → siempre ocupa el ancho completo
     -   14 celdas normales de igual tamaño
     -   `green` → ocupa más espacio que el resto en desktop
