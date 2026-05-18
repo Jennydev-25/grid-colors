@@ -82,6 +82,12 @@ Diseño de referencia proporcionado por el bootcamp.
 -   `style`: add desktop layout (6 columns)
 -   `style`: add color cells styles
 -   `docs`: add final screenshot to README
+- - `fix`: remove duplicated code and fix mobile-first padding in base.css
+- `fix`: remove redundant font-family from .cell
+- `fix`: replace section and divs with semantic ul and li elements
+- `fix`: remove default bullet point from li elements
+- `fix`: fix responsive layout for all breakpoints
+- `docs`: add final screenshots to README
 
 ----------
 
@@ -98,6 +104,10 @@ Diseño de referencia proporcionado por el bootcamp.
 ## 📸 Resultado final
 
 _Captura añadida al terminar el proyecto._
+
+| 📱 Phone | 📟 Tablet | 🖥️ Desktop |
+|---|---|---|
+| ![Phone](imgs/screenshot-mobile.png) | ![Tablet](imgs/screenshot-tablet.png) | ![Desktop](imgs/screenshot-desktop.png) |
 
 ----------
 
