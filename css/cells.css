@@ -3,7 +3,6 @@
   padding: var(--space-lg) var(--space-md);
   border-radius: var(--radius-cell);
   text-align: center;
-  font-family: var(--font-family);
   font-size: 1rem;
   color: white;
 }
