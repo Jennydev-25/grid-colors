@@ -113,4 +113,4 @@ _Captura añadida al terminar el proyecto._
 
 ## 🚀 Demo en vivo
 
-👉 [Ver en GitHub Pages](https://jennydev-25.github.io/ex-html-css-frontend-reproduce-using-grid/)
+👉 [Ver en GitHub Pages](https://Jennydev-25.github.io/Grid-colors/)
