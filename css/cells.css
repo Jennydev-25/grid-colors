@@ -6,6 +6,10 @@
   font-size: 1rem;
   color: white;
   list-style: none;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* -- Color de fondo individual -- */
@@ -26,3 +30,10 @@
 .deepskyblue { background-color: var(--color-deepskyblue); }
 .fuchsia     { background-color: var(--color-fuchsia); }
 .green       { background-color: var(--color-green); }
+
+@media (max-width: 599px) {
+  .cell {
+    font-size: 0.65rem;
+    padding: var(--space-md) var(--space-xs);
+  }
+}

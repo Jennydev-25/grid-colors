@@ -31,9 +31,19 @@ h2 {
   grid-column: 1 / -1;
 }
 
-/* -- Green: ancho completo en mobile -- */
-.green {
-  grid-column: 1 / -1;
+/* -- Mobile: green ancho completo, títulos pequeños y gap reducido -- */
+@media (max-width: 599px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .grid {
+    gap: var(--space-sm);
+  }
+
+  .green {
+    grid-column: 1 / -1;
+  }
 }
 
 /* -- Tablet: 4 columnas -- */
@@ -49,7 +59,6 @@ h2 {
     grid-template-columns: repeat(6, 1fr);
   }
 
-  /* Green ocupa 3 de 6 columnas en desktop */
   .green {
     grid-column: span 3;
   }
